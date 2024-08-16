@@ -2,6 +2,8 @@
 
 ## An great and usable api :]
 
+# 〒▽〒 The code comments and the responses are in PT-BR 🇧🇷 Sorry if you can't understand it
+
 ### 1. **Home Endpoint**
    - **Route**: `GET /`
    - **Function**: Returns a JSON response with a message indicating available routes and a Discord link.
