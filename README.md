@@ -24,10 +24,6 @@
    - **Route**: `GET /minecraft/<ip>`
    - **Function**: Fetches the status of a Minecraft server given its IP address using the `mcsrvstat.us` API. Returns server information (e.g., IP, port, hostname, MOTD, players online) as JSON. A request log is sent to a Discord webhook.
 
-### 6. **Discord User Information Endpoint**
-   - **Route**: `GET /users/<id>`
-   - **Function**: Retrieves information about a Discord user using the `japi.rest` API and returns the data as JSON. A request log is also sent to a Discord webhook.
-
 ### 7. **Discord Boost Information Endpoint**
    - **Route**: `GET /user/<user_id>`
    - **Function**: Retrieves detailed information about a user's Discord boost status using Discord's API, including the next boost date and level. The response is returned as JSON and also sent to a Discord webhook.
