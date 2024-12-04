@@ -5,3 +5,4 @@ discord_webhook
 gunicorn
 instagram-private-api
 g4f
+dateutil
